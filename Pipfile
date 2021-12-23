@@ -4,8 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gunicorn = "*"
 flask = "*"
+numpy = "*"
+pickle-mixin = "*"
+requests = "*"
+scikit-learn = "*"
+gunicorn = "*"
 
 [dev-packages]
 
