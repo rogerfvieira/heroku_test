@@ -11,4 +11,5 @@ def model(input_data):
     '''
     rf = pickle.load(open('model_pickle_lr', 'rb'))
     prob = (rf.predict_proba(input_data)[0][1])*100
+    prob = int(prob)
     return prob
