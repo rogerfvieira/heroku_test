@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Kickstarter - {{ title }}</title>
+    <title>Kickstarter</title>
     <link rel="stylesheet" href="https://unpkg.com/picnic" />
   </head>
 
@@ -10,6 +10,7 @@
     <article class="flex two" style="padding: 3em 1em;">
       {% block content %}
 
+         <p> Input your kickstarter conditions</p>
         <form action="/data" method = "POST">
           <p>Percent Pledged<input type = "number" name = "percentage_pledged" /></p>
           <p>Number of backers<input type = "number" name = "num_backers" /></p>
