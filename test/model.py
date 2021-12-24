@@ -11,5 +11,5 @@ def model(input_data):
     '''
     rf = pickle.load(open('model_pickle_lr', 'rb'))
 #   pred = rf.predict(input_data)
-    prob=rf.predict_proba(input_input)[0][1]
+    prob=rf.predict_proba(input_data)[0][1]
     return prob
