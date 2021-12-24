@@ -36,13 +36,10 @@ def create_app():
             user_input = exp(campaign_length, percentage_pledged,
                              backers, currency, category)
 
-        model_display = model(user_input)
+        prob = model(user_input)
 
-        if model_display[0] == 1:
-            status = 'success!'
-            return render_template('data.html', status=status)
-        else:
-            status = 'failure...try again!'
-            return render_template('data.html', status=status)
+       
+        return render_template('data.html', status=prob)
+        
 
     return APP
