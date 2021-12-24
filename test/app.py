@@ -38,8 +38,6 @@ def create_app():
 
         prob = model(user_input)
 
-       
         return render_template('data.html', status=prob)
-        
 
     return APP
