@@ -9,11 +9,9 @@
   <body>
     <article class="flex two" style="padding: 3em 1em;">
       {% block content %}
-
-         <p> Input your kickstarter conditions</p>
-         <p>Kickstart is a platform that allows anyone with an idea to raise funding through crowdsourced campaigning.
-            Our goal is to help assist kickstart founders to determine the best conditions for creating a successful kickstart campaign</p>
+      
         <form action="/data" method = "POST">
+          <p> Input your kickstarter conditions</p>
           <p>Percent Pledged<input type = "number" placeholder="ex. 50" name = "percentage_pledged" /></p>
           <p>Number of backers<input type = "number" placeholder="ex. 4000" name = "num_backers" /></p>
           <p>Length of the campaign:<input type = "number" placeholder="ex. 365" name = "campaign_length" /></p> </p>
