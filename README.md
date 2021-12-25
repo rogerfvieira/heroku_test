@@ -65,7 +65,7 @@ This is how you may run the web application locally , as a flask app. Alternativ
 
 
 1. Clone the repo:
-   ```command
+   ```console
    git clone https://github.com/kik-start/kickstart.git
    ```
 2. Change directories to location of cloned repo:
