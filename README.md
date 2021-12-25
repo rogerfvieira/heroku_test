@@ -69,15 +69,15 @@ This is how you may run the web application locally , as a flask app. Alternativ
     rogervieira@Rogers-MacBook-Air desktop % git clone https://github.com/kik-start/kickstart.git
    ```
 2. Change directories to location of cloned repo:
-   ```
+   ```console
    /Users/example_user/desktop/kickstart
    ```
 3. Run the virtual environment:
-   ```
+   ```console
    (base) example@example_user kickstart % pipenv shell
    ```
 4. Change directories to inner folder containing app.py file:
-   ```
+   ```console
    (kickstart)(base) example@example_user kickstart % flask run
    ```
 
